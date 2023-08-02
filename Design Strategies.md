@@ -1,7 +1,7 @@
 # Design Strategies
 
 
-## Structured Desing:
+### Structured Desing:
 
 Structured design is a software design methodology that aims to break down a complex system into smaller, manageable modules. It focuses on hierarchical organization and uses techniques such as top-down design and stepwise refinement to design the system in a structured and systematic manner. The key principles of structured design include modularity, cohesion, and data independence.Overall, structured design breaks down a complex system into modules, using hierarchical and stepwise refinement techniques for a well-organised and efficient design. 
 
@@ -20,7 +20,7 @@ Coupling and cohesion are two important concepts in structured design that descr
     
 Cohesion measures the strength of the relationship among elements within a module, while coupling gauges the level of interaction and dependency between different modules in a software system. In the context of structured design, it is desirable to achieve high cohesion within modules and minimize coupling between them to enhance code maintainability and flexibility. 
 
-***What is the difference between top-down and bottom-up design? Which best describes a function oriented design?***
+**What is the difference between top-down and bottom-up design? Which best describes a function oriented design?**
 
 
 In top-down design, the development process starts with an overall view of the system and then gradually decomposes it into smaller, more manageable modules or sub-systems. The decomposition continues until each module represents a specific function or task. The focus is on breaking down the problem into smaller parts and creating a hierarchical structure. It is called "top-down" because it starts from the top-level view and works its way down to the details.
@@ -49,7 +49,7 @@ In OOD, classes are the building blocks that represent real-world entities or ab
             
 - 6. Aggregation and Composition: Relationships that show how classes are connected through whole-part relationships.
 
-***What are the four pillars of object-oriented programming? Give a single-sentence description of each. ***
+**What are the four pillars of object-oriented programming? Give a single-sentence description of each.**
 
 
 1. Encapsulation: Bundling data (attributes) and methods (behaviour) together within a class, hiding the internal details and allowing controlled access to the object's state.
@@ -61,21 +61,24 @@ In OOD, classes are the building blocks that represent real-world entities or ab
 4. Polymorphism: The ability of different classes to be treated as objects of a common superclass, enabling the same interface to be used for different data types or objects with different implementations. 
 
 
-***What is the strategy pattern? How would its implementation differ between a functional and object-oriented system?***
+**What is the strategy pattern? How would its implementation differ between a functional and object-oriented system?**
 
 In the Strategy Pattern, there are typically three main components:
                     
-Context: The context is the class that contains a reference to the strategy object and interacts with it through a common interface.
+## Context: 
+The context is the class that contains a reference to the strategy object and interacts with it through a common interface.
 
-Strategy: The strategy is an interface or abstract class that defines a common set of methods or operations that all concrete strategies must implement.
+## Strategy: 
+The strategy is an interface or abstract class that defines a common set of methods or operations that all concrete strategies must implement.
 
-Concrete Strategies: These are the actual algorithm implementations that implement the strategy interface. Each concrete strategy provides a different behaviour to solve a particular problem.
+## Concrete Strategies:
+These are the actual algorithm implementations that implement the strategy interface. Each concrete strategy provides a different behaviour to solve a particular problem.
 
-Implementation in a functional system:
+## Implementation in a functional system:
 
 In a functional system, the strategy pattern can be implemented using higher-order functions or function pointers. The context will take a function as an argument, which represents the selected strategy. Different functions can be passed to the context, providing different behaviours. The context will then execute the chosen strategy function when needed.
                     
-Implementation in an object-oriented system:
+## Implementation in an object-oriented system:
 
 In an object-oriented system, the strategy pattern is implemented by defining an interface or an abstract class representing the strategy. Each concrete strategy is then implemented as a separate class that inherits from the common strategy interface. The context class holds a reference to the strategy interface and delegates the task to the selected concrete strategy.
 
@@ -85,11 +88,11 @@ In an object-oriented system, the strategy pattern is implemented by defining an
 I would follow the "User-Centered Design" methodology to create an online payment system that works seamlessly across sectors. This approach focuses on user needs, flexibility, and iterative improvements, making it user-friendly, accessible, and market-ready for various industries.
 
 Another reason why this methodology would be is because it focuses mainly on:
-
-Focus on User Needs
-Flexibility and Adaptability
-Iterative Design Process
-Inclusive Design
-Reduce Friction in User Experience
-Consistency in User Interface
-Marketing and Brand Perception
+### 
+- Focus on User Needs
+- Flexibility and Adaptability
+- Iterative Design Process
+- Inclusive Design
+- Reduce Friction in User Experience
+- Consistency in User Interface
+- Marketing and Brand Perception
